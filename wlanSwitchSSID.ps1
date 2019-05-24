@@ -8,13 +8,13 @@ echo "Currently connected to: $ssidname"
 
 echo "Switching network..."
 
-IF ($ssidname -eq "East Colony_443/C") {
-	netsh wlan connect name = "SSID"
+IF ($ssidname -eq "Wlan_1") {
+	netsh wlan connect name = "Wlan_2"
 }
 
 ELSE {
-	IF ($ssidname -eq "SSID") {
-		netsh wlan connect name = "East Colony_443/C"
+	IF ($ssidname -eq "Wlan_2") {
+		netsh wlan connect name = "Wlan_1"
 	}
 }
 
