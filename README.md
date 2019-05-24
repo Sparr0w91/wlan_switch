@@ -3,10 +3,11 @@ A Powershell script to switch between two wireless lan networks.
 
 Run this script to switch between two wireless networks.
 
-1. Open the script file and add the names of the two Wlan networks.
-2. Default values for the two networks is given as "Wlan_1" and "Wlan_2".
-3. Change these to the ones that you wish to switch between.
-4. Make sure to include the double-quotes ("") around the names of the Wlan networks.
+1. Download the "wlanSwitchSSID.ps1" script file anywhere on your PC.
+2. Open the script file and add the names of the two Wlan networks.
+3. Default values for the two networks is given as "Wlan_1" and "Wlan_2".
+4. Change these to the ones that you wish to switch between.
+5. Make sure to include the double-quotes ("") around the names of the Wlan networks.
 
 To create a Click-to-Run file
 1. Download the "wlan_SwitchSSID.ps1" file into any directory on your PC.
